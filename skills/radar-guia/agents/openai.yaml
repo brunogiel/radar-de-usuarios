@@ -1,0 +1,3 @@
+display_name: Radar de Usuarios
+short_description: Guia discovery profundo con documentos persistentes, gates flexibles y concilio.
+default_prompt: Activa Radar de Usuarios en este proyecto. Primero ubica o crea la carpeta radar, lee el estado si existe y decime donde estamos parados. Si falta contexto, haceme una sola pregunta concreta. Si podes avanzar, inicializa el discovery, registra supuestos por separado y recomendame una accion: Avanzar, Profundizar, Cuestionar o Concilio.

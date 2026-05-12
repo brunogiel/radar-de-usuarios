@@ -1,0 +1,78 @@
+method: radar-de-usuarios
+project_name: ""
+created_at: ""
+updated_at: ""
+guide: bruno-guia
+current_step: inicio
+current_status: not_started
+valid_statuses:
+  - not_started
+  - capturing
+  - drafted
+  - validated
+  - advanced_with_assumptions
+recommended_action: Profundizar
+recommended_reason: "Completar alineacion inicial antes de avanzar."
+industry: ""
+is_tech_project: null
+active_agents:
+  - bruno-guia
+available_agents:
+  - bruno-guia
+  - researcher-cualitativo
+  - deep-researcher-mercado
+  - uxer
+  - sociologo
+  - economista
+  - growth
+  - artista
+  - filosofo
+  - tecnologo
+  - experto-industria
+  - dueno-pyme
+  - taxista
+steps:
+  inicio:
+    status: not_started
+    output: documento-discovery.md
+    gate: true
+  design_challenge:
+    status: not_started
+    output: documento-discovery.md
+    gate: true
+  research_mercado:
+    status: not_started
+    output: research-mercado.md
+    gate: true
+  base_conocimiento:
+    status: not_started
+    output: base-conocimiento.md
+    gate: true
+  usuarios_muestra:
+    status: not_started
+    output: usuarios-y-muestra.md
+    gate: true
+  guias_entrevista:
+    status: not_started
+    output: guias-entrevista.md
+    gate: true
+  reclutamiento:
+    status: not_started
+    output: reclutamiento.md
+    gate: false
+  checklist_campo:
+    status: not_started
+    output: checklist-campo.md
+    gate: false
+  guia_contexto:
+    status: not_started
+    output: guia-contexto.md
+    gate: false
+  captura_entrevistas:
+    status: not_started
+    output: interviews/index.md + interviews/evidence-ledger.md
+    gate: true
+  sintesis:
+    status: not_started
+    output: sintesis.md
+    gate: true
