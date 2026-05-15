@@ -1,19 +1,15 @@
 # Empat.ia
 
-Método instalable para **guiarte en un proyecto de descubrimiento de usuarios**, usando [Claude](https://claude.com/claude-code) o Codex. También conocido como **Diseño con Empatía y la IA**.
+> Método instalable para **guiarte en un proyecto de descubrimiento de usuarios**, usando [Claude](https://claude.com/claude-code) o Codex. Un Tandem entre VOS + Inteligencia Artificial para llevar adelante un proyecto de Design Thinking.
 
-> **Empat.ia es un copiloto.** Te ordena el proceso, te hace las preguntas correctas, te frena cuando saltás etapas. **El trabajo de campo lo ponés vos**: al menos 10 entrevistas con usuarios reales y como mínimo una semana de dedicación. Si no estás dispuesto a eso, este método no es para vos.
-
-El entregable final son **principios de diseño** rastreables a evidencia, que vas a usar para decidir producto, comunicación con usuarios y estrategia. Basado en Design Thinking y human-centered design (IDEO, Acumen) más años de experiencia corriendo este método de forma manual, pre-IA.
+Empat.ia es un copiloto que te guía en un proceso de diseño empático siguiendo la metodología de Design Thinking. El entregable final son **principios de diseño** rastreables a evidencia, que vas a usar para decidir producto, comunicación con usuarios y estrategia.
 
 ## ⚠️ Antes de usarlo
 
 - **Es un copiloto.** No reemplaza el trabajo de campo. Si no hablás con usuarios reales, el método no sirve.
 - **Requiere tiempo: mínimo una semana de dedicación seria + 10-12 entrevistas hechas por vos.** El Guía te arma las guías, te ayuda a reclutar y te ordena la evidencia, pero no entrevista por vos.
-- **No tiene mantenimiento ni garantías.** Lo comparto "as-is". Te lleva a evidencia trazable para decidir mejor. Insight ganador o no, depende de cada caso.
 - **No reemplaza criterio profesional en research con stakes altos** (médico, legal, financiero, vulnerabilidad de usuarios). Consultá con un researcher senior.
 
-Si te queda claro y querés usarlo igual, adelante. Lo usás bajo tu propio riesgo.
 
 ## Qué hace
 
@@ -31,15 +27,18 @@ Para cualquiera con ganas de aprender de sus usuarios y dispuesto a hacer el tra
 
 Requisitos mínimos:
 
-- Cuenta paga de Claude o Codex.
-- Tiempo y voluntad para entrevistar gente real.
+| Lo que necesitás                      | Para qué                                      |
+| ------------------------------------- | --------------------------------------------- |
+| Cuenta paga de Claude o Codex         | Para que un asistente corra el método con vos |
+| 10-12 entrevistas con usuarios reales | El campo lo hacés vos, no se delega           |
+| Mínimo 1 semana de dedicación         | Sin tiempo, el método no rinde                |
 
 ## Cómo se usa
 
 Decile a tu asistente (Claude o Codex), copiando este mensaje:
 
 ```text
-Instalame esto baby: https://github.com/brunogiel/Empat.ia
+Instalame este repo: https://github.com/brunogiel/Empat.ia
 ```
 
 Tu asistente baja el método, te explica de qué se trata y arranca con vos.
