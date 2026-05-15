@@ -2,15 +2,15 @@
 
 Método instalable para **guiarte en un proyecto de descubrimiento de usuarios**, usando [Claude](https://claude.com/claude-code) o Codex. También conocido como **Diseño con Empatía y la IA**.
 
-> **Empat.ia es un copiloto, no un autopiloto.** Te ordena el proceso, te hace las preguntas correctas, te frena cuando saltás etapas. **No lo hace por vos.** El trabajo de campo (al menos 10 entrevistas con usuarios reales y como mínimo una semana de dedicación) lo ponés vos. Si no estás dispuesto a eso, este método no es para vos.
+> **Empat.ia es un copiloto.** Te ordena el proceso, te hace las preguntas correctas, te frena cuando saltás etapas. **El trabajo de campo lo ponés vos**: al menos 10 entrevistas con usuarios reales y como mínimo una semana de dedicación. Si no estás dispuesto a eso, este método no es para vos.
 
 El entregable final son **principios de diseño** rastreables a evidencia, que vas a usar para decidir producto, comunicación con usuarios y estrategia. Basado en Design Thinking y human-centered design (IDEO, Acumen) más años de experiencia corriendo este método de forma manual, pre-IA.
 
 ## ⚠️ Antes de usarlo
 
-- **Es un copiloto, no un autopiloto.** No reemplaza el trabajo de campo. Si no hablás con usuarios reales, el método no sirve.
+- **Es un copiloto.** No reemplaza el trabajo de campo. Si no hablás con usuarios reales, el método no sirve.
 - **Requiere tiempo: mínimo una semana de dedicación seria + 10-12 entrevistas hechas por vos.** El Guía te arma las guías, te ayuda a reclutar y te ordena la evidencia, pero no entrevista por vos.
-- **No tiene mantenimiento ni garantías.** Lo comparto "as-is". Que sigas el proceso no garantiza un insight ganador. Sí te garantiza llegar a evidencia trazable para decidir mejor.
+- **No tiene mantenimiento ni garantías.** Lo comparto "as-is". Te lleva a evidencia trazable para decidir mejor. Insight ganador o no, depende de cada caso.
 - **No reemplaza criterio profesional en research con stakes altos** (médico, legal, financiero, vulnerabilidad de usuarios). Consultá con un researcher senior.
 
 Si te queda claro y querés usarlo igual, adelante. Lo usás bajo tu propio riesgo.
@@ -78,7 +78,7 @@ Después invocás con _"usá Empat.ia"_ desde cualquier proyecto.
 - **Comunicación con usuarios**: qué palabras usar, qué prometer, qué no prometer, cómo hablarles a los distintos perfiles.
 - **Estrategia**: dónde apostar, qué segmento priorizar, qué oportunidades vale la pena perseguir y cuáles no.
 
-Los principios vienen acompañados de patrones, insights, citas top y preguntas "Cómo podríamos..." (HMW) que abren la siguiente fase de ideación. Pero el corazón del entregable son los principios. Son lo que se queda con vos cuando termina el método.
+Los principios vienen acompañados de patrones, insights, citas top y preguntas "Cómo podríamos..." (HMW) que abren la siguiente fase de ideación. Los principios son lo que se queda con vos cuando termina el método.
 
 Las etapas con gate (1, 2, 3, 4, 5, 6, 9, 10) requieren actualizar el estado antes de avanzar. El método no te deja saltar.
 
@@ -107,7 +107,7 @@ Cuando una decisión es difícil, podés convocar al concilio: un equipo multidi
 - Un **especialista en growth** que mira canales y lenguaje.
 - Y otros: tecnologo, experto en industria, uxer, researcher cualitativo, e incluso un **taxista** para cuando el equipo se pone demasiado experto y hace falta una mirada lateral.
 
-El Guía te propone 3-5 según el proyecto y el gate, y te ayuda a elegir. Vos también podés sumar o sacar agentes a mano. La regla: combinar al menos tres lentes distintos para forzar desacuerdo útil. El concilio no busca consenso. Te muestra los ángulos que solo no ves.
+El Guía te propone 3-5 según el proyecto y el gate, y te ayuda a elegir. Vos también podés sumar o sacar agentes a mano. La regla: combinar al menos tres lentes distintos para forzar desacuerdo útil. El concilio te muestra los ángulos que solo no ves.
 
 ## Privacidad y fuentes
 
