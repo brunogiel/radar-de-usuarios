@@ -1,6 +1,6 @@
 # Empat.ia
 
-Método instalable para **guiarte en un proyecto de descubrimiento de usuarios**, usando [Claude](https://claude.com/claude-code) (también compatible con Codex). También conocido como **Diseño con Empatía y la IA**.
+Método instalable para **guiarte en un proyecto de descubrimiento de usuarios**, usando [Claude](https://claude.com/claude-code) o Codex. También conocido como **Diseño con Empatía y la IA**.
 
 > **Empat.ia es un copiloto, no un autopiloto.** Te ordena el proceso, te hace las preguntas correctas, te frena cuando saltás etapas. **No lo hace por vos.** El trabajo de campo (al menos 10 entrevistas con usuarios reales y como mínimo una semana de dedicación) lo ponés vos. Si no estás dispuesto a eso, este método no es para vos.
 
@@ -31,41 +31,24 @@ Para cualquiera con ganas de aprender de sus usuarios y dispuesto a hacer el tra
 
 Requisitos mínimos:
 
-- Cuenta paga de Claude (o de Codex).
+- Cuenta paga de Claude o Codex.
 - Tiempo y voluntad para entrevistar gente real.
 
 ## Cómo se usa
 
-Abrí Claude Code en la carpeta del proyecto donde querés trabajar y decile:
+Decile a tu asistente (Claude o Codex), copiando este mensaje:
 
 ```text
 Instalame esto baby: https://github.com/brunogiel/Empat.ia
 ```
 
-Eso es todo. Tu asistente se encarga del resto:
+Tu asistente baja el método, te explica de qué se trata y arranca con vos.
 
-1. Baja el método a tu compu (`~/Empat.ia` por default).
-2. Te explica qué es Empat.ia en dos párrafos.
-3. Te hace una sola ronda corta de preguntas sobre tu proyecto.
-4. Recién cuando confirmes, crea la carpeta `descubrimiento/` adentro del proyecto y arranca la etapa 1 con todo lo que ya charlaron pre-cargado.
+En cualquier momento podés pedir _"cómo va"_ o _"status"_ y te muestra dónde estás.
 
-> **¿No sabés qué es "clonar un repo" ni qué hace el asistente cuando le decís eso?** No importa. Tu asistente lo hace por vos. Lo único que necesitás es tener Claude Code abierto en la carpeta del proyecto y pegarle el mensaje de arriba. Si te pide permiso para ejecutar algún comando, decile que sí.
+### Instalación como skill global
 
-En cualquier momento podés pedir el estado: _"cómo va"_, _"dónde estamos"_, _"status"_:
-
-```text
-Proyecto: LegalesYa
-Etapa actual: 4/10 (base-conocimiento)
-Avance: ▓▓▓░░░░░░░ 30%
-
-Entrevistas: 0/10
-Última actividad: hoy (knowns y unknowns capturados)
-Próximo paso: Profundizar → falta cerrar 2 unknowns antes de armar la muestra
-```
-
-### Alternativa: instalar como skill global
-
-Si querés que el método quede disponible en todos tus proyectos sin indicar el path cada vez:
+Opcional, si querés tenerlo disponible en todos tus proyectos sin pegar el link cada vez:
 
 ```bash
 ./install.sh claude   # copia el skill a ~/.claude/skills/descubrimiento-guia
