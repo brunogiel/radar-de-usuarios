@@ -1,6 +1,6 @@
 # Reference Map
 
-Radar is built from two kinds of background material:
+The method is built from two kinds of background material:
 
 - Author-owned facilitation material about user discovery, design thinking and qualitative research.
 - External human-centered design references used as methodology background.
@@ -27,4 +27,4 @@ These sources informed the method structure and quality criteria:
 
 ## Use Policy
 
-Radar keeps the method portable and original. It uses references as background, writes new operational guidance and generalizes private examples before they become part of the public repository.
+The method is kept portable and original. It uses references as background, writes new operational guidance and generalizes private examples before they become part of the public repository.

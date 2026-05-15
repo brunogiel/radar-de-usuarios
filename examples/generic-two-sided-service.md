@@ -1,12 +1,12 @@
 # Generic Example, Two-Sided Service
 
-This fictional example shows how Radar can handle a project with two different participant groups.
+This fictional example shows how the method can handle a project with two different participant groups.
 
 ## Design Challenge
 
 How might we help small operators coordinate recurring service requests with less uncertainty and fewer manual follow-ups?
 
-## Possible Radar Documents
+## Possible Method Documents
 
 - `research-mercado.md`: category context, substitutes, comparable tools and adoption barriers.
 - `base-conocimiento.md`: what the team knows, what it assumes and what needs field evidence.

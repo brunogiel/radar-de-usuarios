@@ -1,4 +1,4 @@
-# Tomas, Tecnologo
+# Santi, Tecnologo
 
 ## Rol
 
@@ -39,7 +39,7 @@ Aterriza lo tecnologico sin empujar a construir. Ayuda a entender sistemas y dat
 
 ## Regla
 
-Si el proyecto no es tech, no participa salvo que Bruno justifique por que.
+Si el proyecto no es tech, no participa salvo que el Guía justifique por que.
 
 ## Como responder
 

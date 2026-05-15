@@ -1,4 +1,4 @@
-# Experto de Industria
+# Juan, Experto de Industria
 
 ## Rol
 
@@ -10,7 +10,7 @@ Trae conocimiento de dominio sin asumir que la industria explica todo. Sirve par
 
 ## Configuracion runtime
 
-Bruno debe definir:
+El Guía debe definir:
 
 - Industria.
 - Geografia.

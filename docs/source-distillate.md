@@ -1,6 +1,6 @@
 # Source Distillate
 
-Operational principles used to shape Radar. This file summarizes method ideas, not source documents.
+Operational principles used to shape the method. This file summarizes method ideas, not source documents.
 
 ## Author-Owned Facilitation Material
 

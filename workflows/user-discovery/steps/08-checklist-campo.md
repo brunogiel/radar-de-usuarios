@@ -4,7 +4,7 @@
 
 Preparar protocolo para antes, durante y despues de entrevistar.
 
-## Input de Bruno incorporado
+## Notas del método
 
 - Pedir consentimiento.
 - Cuidar privacidad.
@@ -14,9 +14,9 @@ Preparar protocolo para antes, durante y despues de entrevistar.
 
 ## Documentos a tocar
 
-- `radar/checklist-campo.md`
-- `radar/state.yaml`
-- `radar/decision-log.md`
+- `descubrimiento/checklist-campo.md`
+- `descubrimiento/state.yaml`
+- `descubrimiento/decision-log.md`
 
 ## Checklist de calidad
 

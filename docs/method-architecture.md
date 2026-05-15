@@ -1,10 +1,10 @@
 # Method Architecture
 
-Radar de Usuarios is an installable user discovery method for AI coding assistants.
+Empat.ia (Diseño con Empatía y la IA) is an installable user discovery method for AI coding assistants. Its central deliverable is a set of **design principles** traceable to evidence: actionable decision rules the user applies to product choices, communication with users and strategic priorities.
 
 ## Layers
 
-1. Main skill: `radar-guia`.
+1. Main skill: `descubrimiento-guia`.
 2. Workflow steps: `workflows/user-discovery/steps/`.
 3. Agents: `agents/`.
 4. Templates: `templates/`.
@@ -12,7 +12,7 @@ Radar de Usuarios is an installable user discovery method for AI coding assistan
 
 ## State
 
-Project state lives in `radar/state.yaml`.
+Project state lives in `descubrimiento/state.yaml`.
 
 Valid statuses:
 
@@ -24,7 +24,7 @@ Valid statuses:
 
 ## Persistent Documents
 
-The work lives in `radar/`.
+The work lives in `descubrimiento/`.
 
 `documento-discovery.md` acts as the main index and executive summary. Stage-specific files keep raw material, decisions and synthesis from collapsing into one long conversation.
 
@@ -68,7 +68,7 @@ Agents are selectable perspectives with clear contracts. Each agent defines:
 - Expected output.
 - Success metrics.
 
-Bruno selects three to five agents per gate. `dueno-pyme` is used when small business reality affects adoption, budget, operations or decision-making. `taxista` is used when the council needs lateral thinking, plain language, analogies or a non-expert perspective.
+**The Guide proposes, the user decides.** For each council, the Guide suggests 3-5 agents with a short justification each. The user can confirm, add or remove agents before the council is convened. `dueno-pyme` is proposed when small business reality affects adoption, budget, operations or decision-making. `filosofo` is proposed when the council needs to question assumptions, sharpen definitions or surface ethical risks. `taxista` is proposed when the council needs lateral thinking, plain language, analogies or a non-expert perspective.
 
 ## Method Sources
 

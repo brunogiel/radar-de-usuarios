@@ -1,6 +1,10 @@
 # Sintesis
 
-Este documento transforma material de entrevistas en conocimiento accionable. La regla central: no hay insight sin evidencia.
+Este documento transforma material de entrevistas en **principios de diseño** rastreables a evidencia. Los principios son el entregable central del método: reglas de decisión que vas a usar después para producto, comunicación con usuarios y estrategia.
+
+Insights, patrones, HMW y top citas son material que sostiene a los principios, no son el output final.
+
+Regla central: no hay insight ni principio sin evidencia.
 
 ## Material analizado
 

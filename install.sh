@@ -6,10 +6,10 @@ ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 case "$TARGET" in
   codex)
-    DEST="$HOME/.codex/skills/radar-guia"
+    DEST="$HOME/.codex/skills/descubrimiento-guia"
     ;;
   claude)
-    DEST="$HOME/.claude/skills/radar-guia"
+    DEST="$HOME/.claude/skills/descubrimiento-guia"
     ;;
   *)
     echo "Usage: ./install.sh [codex|claude]"
@@ -20,11 +20,11 @@ esac
 rm -rf "$DEST"
 mkdir -p "$DEST"
 
-cp -R "$ROOT_DIR/skills/radar-guia/." "$DEST/"
+cp -R "$ROOT_DIR/skills/descubrimiento-guia/." "$DEST/"
 cp -R "$ROOT_DIR/workflows" "$DEST/workflows"
 cp -R "$ROOT_DIR/agents" "$DEST/method-agents"
 cp -R "$ROOT_DIR/templates" "$DEST/templates"
 cp -R "$ROOT_DIR/scripts" "$DEST/scripts"
 
-echo "Installed Radar de Usuarios into $DEST"
+echo "Installed Diseño con Empatía y la IA into $DEST"
 

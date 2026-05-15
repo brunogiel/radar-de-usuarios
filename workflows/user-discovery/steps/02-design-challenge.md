@@ -4,7 +4,7 @@
 
 Co-crear un desafio en formato `Como podriamos...` centrado en usuario, necesidad e impacto.
 
-## Input de Bruno incorporado
+## Notas del método
 
 - No buscar un challenge para justificar el producto que ya tenes en la cabeza.
 - Evitar que sea demasiado amplio o demasiado especifico.
@@ -12,10 +12,10 @@ Co-crear un desafio en formato `Como podriamos...` centrado en usuario, necesida
 
 ## Documentos a tocar
 
-- `radar/documento-discovery.md`
-- `radar/state.yaml`
-- `radar/assumptions.md`
-- `radar/decision-log.md`
+- `descubrimiento/documento-discovery.md`
+- `descubrimiento/state.yaml`
+- `descubrimiento/assumptions.md`
+- `descubrimiento/decision-log.md`
 
 ## Checklist de calidad
 

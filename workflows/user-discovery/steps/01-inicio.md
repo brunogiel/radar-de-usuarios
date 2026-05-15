@@ -4,7 +4,7 @@
 
 Crear la carpeta de trabajo, entender que trae el usuario y ubicar el nivel de madurez.
 
-## Input de Bruno incorporado
+## Notas del método
 
 - Primero entender si la persona esta arrancando, ya probo algo o ya conoce usuarios.
 - No empezar con soluciones.
@@ -12,10 +12,10 @@ Crear la carpeta de trabajo, entender que trae el usuario y ubicar el nivel de m
 
 ## Documentos a tocar
 
-- `radar/documento-discovery.md`
-- `radar/state.yaml`
-- `radar/decision-log.md`
-- `radar/assumptions.md` si se avanza con supuestos
+- `descubrimiento/documento-discovery.md`
+- `descubrimiento/state.yaml`
+- `descubrimiento/decision-log.md`
+- `descubrimiento/assumptions.md` si se avanza con supuestos
 
 ## Preguntas guia
 

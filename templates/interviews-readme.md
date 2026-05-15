@@ -33,7 +33,7 @@ Cuando termines entrevistas o recibas material, bajalo en `incoming/` sin preocu
 - documentos compartidos por el entrevistado,
 - consentimiento o autorizacion.
 
-Despues Bruno ordena ese material sin perder origen.
+Después el Guía ordena ese material sin perder origen.
 
 ## Naming recomendado
 
@@ -85,5 +85,5 @@ INT-003_alias-a_dueno-comercio_2026-05-18_transcript.md
 - No convertir notas sueltas en insight sin fuente.
 - No borrar contradicciones.
 - No completar silencios con inferencias.
-- Si Bruno interpreta algo, marcarlo como `Lectura del copiloto`.
+- Si el Guía interpreta algo, marcarlo como `Lectura del copiloto`.
 - Si falta consentimiento, no usar citas identificables.

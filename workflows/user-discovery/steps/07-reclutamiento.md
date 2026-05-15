@@ -4,7 +4,7 @@
 
 Preparar mensajes y plan de agenda.
 
-## Input de Bruno incorporado
+## Notas del método
 
 - Incentivos pueden ayudar.
 - Mejor si no son solo amigos.
@@ -13,9 +13,9 @@ Preparar mensajes y plan de agenda.
 
 ## Documentos a tocar
 
-- `radar/reclutamiento.md`
-- `radar/usuarios-y-muestra.md`
-- `radar/state.yaml`
+- `descubrimiento/reclutamiento.md`
+- `descubrimiento/usuarios-y-muestra.md`
+- `descubrimiento/state.yaml`
 
 ## Checklist
 

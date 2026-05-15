@@ -4,7 +4,7 @@
 
 Ordenar lo que el usuario trae: que sabemos, que no sabemos y que queremos aprender.
 
-## Input de Bruno incorporado
+## Notas del método
 
 - Preservar totalidad del contenido relevante.
 - Separar hechos, opiniones, hipotesis y supuestos.
@@ -14,10 +14,10 @@ Ordenar lo que el usuario trae: que sabemos, que no sabemos y que queremos apren
 
 ## Documentos a tocar
 
-- `radar/base-conocimiento.md`
-- `radar/assumptions.md`
-- `radar/documento-discovery.md`
-- `radar/state.yaml`
+- `descubrimiento/base-conocimiento.md`
+- `descubrimiento/assumptions.md`
+- `descubrimiento/documento-discovery.md`
+- `descubrimiento/state.yaml`
 
 ## Estructura
 

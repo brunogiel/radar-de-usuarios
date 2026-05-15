@@ -4,9 +4,9 @@
 
 Ordenar notas, transcripciones y observaciones sin sintetizar prematuramente.
 
-Esta etapa existe para que el usuario pueda bajar todo el material real de campo y Bruno lo convierta en una base procesable, sin perder origen ni inventar cierres.
+Esta etapa existe para que el usuario pueda bajar todo el material real de campo y el Guía lo convierte en una base procesable, sin perder origen ni inventar cierres.
 
-## Input de Bruno incorporado
+## Notas del método
 
 - Buscar una forma comoda de bajar y leer fotos, ideas, entrevistas y notas.
 - Poner todo de manera visible persona a persona.
@@ -14,13 +14,13 @@ Esta etapa existe para que el usuario pueda bajar todo el material real de campo
 
 ## Documentos a tocar
 
-- `radar/interviews/`
-- `radar/interviews/README.md`
-- `radar/interviews/index.md`
-- `radar/interviews/evidence-ledger.md`
-- `radar/base-conocimiento.md`
-- `radar/state.yaml`
-- `radar/assumptions.md`
+- `descubrimiento/interviews/`
+- `descubrimiento/interviews/README.md`
+- `descubrimiento/interviews/index.md`
+- `descubrimiento/interviews/evidence-ledger.md`
+- `descubrimiento/base-conocimiento.md`
+- `descubrimiento/state.yaml`
+- `descubrimiento/assumptions.md`
 
 ## Estructura de carpetas
 

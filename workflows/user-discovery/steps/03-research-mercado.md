@@ -4,7 +4,7 @@
 
 Hacer deep research de mercado cuando aplique, usando web actual y fuentes citables.
 
-## Input de Bruno incorporado
+## Notas del método
 
 - El research de mercado ayuda a responder parcialmente el design challenge.
 - Puede mirar reportes, tendencias, tamano de mercado, players, benchmarks y geografias relevantes.
@@ -12,10 +12,10 @@ Hacer deep research de mercado cuando aplique, usando web actual y fuentes citab
 
 ## Documentos a tocar
 
-- `radar/research-mercado.md`
-- `radar/documento-discovery.md`
-- `radar/state.yaml`
-- `radar/decision-log.md`
+- `descubrimiento/research-mercado.md`
+- `descubrimiento/documento-discovery.md`
+- `descubrimiento/state.yaml`
+- `descubrimiento/decision-log.md`
 
 ## Regla de web
 

@@ -2,26 +2,29 @@
 
 ## Objetivo
 
-Convertir material de entrevistas en conocimiento accionable y trazable.
+Convertir material de entrevistas en **principios de diseño** trazables a evidencia. Los principios son el entregable central de Empat.ia: reglas de decisión que el usuario va a usar para producto, comunicación y estrategia.
 
-## Input de Bruno incorporado
+Insights, patrones, HMW y top citas son material que sostiene a los principios, no son el output final. Si un principio no se rastrea a facts o citas, no es un principio: es una opinión.
 
-- Del dato al insight: no resumir por resumir.
-- Cada insight debe nacer de facts o citas.
+## Notas del método
+
+- Del dato al insight, del insight al principio: cada salto se sostiene en evidencia.
+- Cada insight y cada principio deben nacer de facts o citas.
 - Cruzar perfiles.
 - Identificar patrones fuertes, senales debiles, outliers y contradicciones.
 - Derivar design principles y HMW desde evidencia.
+- Los principios son reglas de diseño accionables, no features ni opiniones.
 - No inventar.
 
 ## Documentos a tocar
 
-- `radar/sintesis.md`
-- `radar/interviews/index.md`
-- `radar/interviews/evidence-ledger.md`
-- `radar/documento-discovery.md`
-- `radar/state.yaml`
-- `radar/decision-log.md`
-- `radar/assumptions.md`
+- `descubrimiento/sintesis.md`
+- `descubrimiento/interviews/index.md`
+- `descubrimiento/interviews/evidence-ledger.md`
+- `descubrimiento/documento-discovery.md`
+- `descubrimiento/state.yaml`
+- `descubrimiento/decision-log.md`
+- `descubrimiento/assumptions.md`
 
 ## Proceso
 

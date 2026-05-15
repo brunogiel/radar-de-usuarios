@@ -4,7 +4,7 @@
 
 Crear guias de 45-60 minutos para entrevistas cualitativas.
 
-## Input de Bruno incorporado
+## Notas del método
 
 - El entrevistado es el experto.
 - Una persona guia la conversacion.
@@ -15,10 +15,10 @@ Crear guias de 45-60 minutos para entrevistas cualitativas.
 
 ## Documentos a tocar
 
-- `radar/guias-entrevista.md`
-- `radar/base-conocimiento.md`
-- `radar/state.yaml`
-- `radar/decision-log.md`
+- `descubrimiento/guias-entrevista.md`
+- `descubrimiento/base-conocimiento.md`
+- `descubrimiento/state.yaml`
+- `descubrimiento/decision-log.md`
 
 ## Estructura recomendada
 

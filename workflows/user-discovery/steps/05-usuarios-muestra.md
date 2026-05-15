@@ -4,7 +4,7 @@
 
 Definir a quien entrevistar y con que diversidad minima.
 
-## Input de Bruno incorporado
+## Notas del método
 
 - Preguntar quien es el usuario real, no solo quien compra.
 - En logistica, por ejemplo, el usuario puede ser quien maneja la logistica en la empresa.
@@ -13,10 +13,10 @@ Definir a quien entrevistar y con que diversidad minima.
 
 ## Documentos a tocar
 
-- `radar/usuarios-y-muestra.md`
-- `radar/state.yaml`
-- `radar/assumptions.md`
-- `radar/decision-log.md`
+- `descubrimiento/usuarios-y-muestra.md`
+- `descubrimiento/state.yaml`
+- `descubrimiento/assumptions.md`
+- `descubrimiento/decision-log.md`
 
 ## Checklist de calidad
 

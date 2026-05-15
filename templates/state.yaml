@@ -1,8 +1,8 @@
-method: radar-de-usuarios
+method: diseno-empatia-ia
 project_name: ""
 created_at: ""
 updated_at: ""
-guide: bruno-guia
+guide: guia
 current_step: inicio
 current_status: not_started
 valid_statuses:
@@ -12,13 +12,13 @@ valid_statuses:
   - validated
   - advanced_with_assumptions
 recommended_action: Profundizar
-recommended_reason: "Completar alineacion inicial antes de avanzar."
+recommended_reason: "Completar alineación inicial antes de avanzar."
 industry: ""
 is_tech_project: null
 active_agents:
-  - bruno-guia
+  - guia
 available_agents:
-  - bruno-guia
+  - guia
   - researcher-cualitativo
   - deep-researcher-mercado
   - uxer
@@ -28,9 +28,13 @@ available_agents:
   - artista
   - filosofo
   - tecnologo
+  - data-scientist
   - experto-industria
   - dueno-pyme
   - taxista
+# Regla dura: no se cierra una etapa con gate sin actualizar 'status' a 'drafted',
+# 'validated' o 'advanced_with_assumptions'. El Guía no puede saltar de step sin
+# tocar este archivo y actualizar updated_at.
 steps:
   inicio:
     status: not_started
@@ -76,3 +80,6 @@ steps:
     status: not_started
     output: sintesis.md
     gate: true
+interviews:
+  target: 10
+  done: 0
