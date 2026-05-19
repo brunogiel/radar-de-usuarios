@@ -7,3 +7,7 @@ build/
 source-materials/
 private/
 *.pdf
+
+# Bruno's local dev brain (symlink to second brain) + per-repo local prefs
+.brain
+CLAUDE.local.md
