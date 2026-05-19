@@ -117,6 +117,14 @@ The public repository contains only generic method files. Private projects, clie
 
 The method was built on proprietary facilitation material, external human-centered design references (IDEO, Acumen, and others), and **years of experience running this method manually, pre-AI**. References are listed in [`docs/reference-map.md`](docs/reference-map.md). Source documents remain with their original owners.
 
+## Status
+
+This is **v1.0** — an opinionated first release with plenty of rough edges and room to improve. It works end to end, but a lot of the decisions are still personal calls rather than battle-tested defaults.
+
+If you try it and find it useful, **feedback, issues, and pull requests are very welcome**. I'd love to hear what worked, what didn't, and what was missing. Collaborations are also on the table — reach out if you want to build on top of this.
+
+If there's enough interest, I'll publish a proper roadmap with planned improvements, open questions, and ways to contribute.
+
 ## License
 
 MIT, see [`LICENSE`](LICENSE).
