@@ -1,5 +1,8 @@
 # Empat.ia
 
+> [!NOTE]
+> 🇪🇸 **Para usarlo en español, simplemente decile a tu asistente (Claude o Codex):** _"usemos esta repo en español"_.
+
 > Installable method to **guide you through a user discovery project**, using [Claude](https://claude.com/claude-code) or Codex. A tandem between YOU + Artificial Intelligence to carry out a Design Thinking project.
 
 Empat.ia is a co-pilot that guides you through an empathic design process following the Design Thinking methodology. The final deliverable is **design principles** traceable to evidence, which you'll use to decide on product, user communication, and strategy.
@@ -44,10 +47,6 @@ Install this repo for me: https://github.com/brunogiel/Empat.ia
 Your assistant downloads the method, explains what it's about, and gets started with you.
 
 At any point you can ask _"how's it going"_ or _"status"_ and it shows you where you are.
-
-### Using it in Spanish
-
-To use it in Spanish, just tell your assistant (Claude or Codex): _"usemos esta repo en español"_ ("let's use this repo in Spanish"). The assistant will translate on the fly and run the method in Spanish with you.
 
 ### Installing as a global skill
 
