@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Initialize project documents for Diseño con Empatía y la IA."""
+"""Initialize project documents for Design with Empathy and AI."""
 
 from __future__ import annotations
 
@@ -10,18 +10,18 @@ from pathlib import Path
 
 
 TEMPLATE_FILES = [
-    "documento-discovery.md",
+    "discovery-document.md",
     "state.yaml",
     "assumptions.md",
     "decision-log.md",
-    "base-conocimiento.md",
-    "research-mercado.md",
-    "usuarios-y-muestra.md",
-    "guias-entrevista.md",
-    "reclutamiento.md",
-    "checklist-campo.md",
-    "guia-contexto.md",
-    "sintesis.md",
+    "knowledge-base.md",
+    "market-research.md",
+    "users-and-sample.md",
+    "interview-guides.md",
+    "recruitment.md",
+    "field-checklist.md",
+    "guide-context.md",
+    "synthesis.md",
 ]
 
 INTERVIEW_TEMPLATE_FILES = {
@@ -32,7 +32,7 @@ INTERVIEW_TEMPLATE_FILES = {
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Initialize Diseño con Empatía y la IA documents.")
+    parser = argparse.ArgumentParser(description="Initialize Design with Empathy and AI documents.")
     parser.add_argument("--project-root", default=".", help="Project directory to initialize.")
     parser.add_argument("--method-root", default=None, help="Method bundle root. Defaults to script parent/..")
     parser.add_argument("--force", action="store_true", help="Overwrite existing files.")
@@ -41,20 +41,20 @@ def main() -> int:
     project_root = Path(args.project_root).expanduser().resolve()
     method_root = Path(args.method_root).expanduser().resolve() if args.method_root else Path(__file__).resolve().parents[1]
     templates_dir = method_root / "templates"
-    descubrimiento_dir = project_root / "descubrimiento"
+    discovery_dir = project_root / "discovery"
 
     if not templates_dir.exists():
         raise SystemExit(f"Templates not found: {templates_dir}")
 
-    descubrimiento_dir.mkdir(parents=True, exist_ok=True)
-    (descubrimiento_dir / "inputs").mkdir(exist_ok=True)
-    (descubrimiento_dir / "interviews").mkdir(exist_ok=True)
-    (descubrimiento_dir / "interviews" / "incoming").mkdir(exist_ok=True)
-    (descubrimiento_dir / "interviews" / "transcripts").mkdir(exist_ok=True)
-    (descubrimiento_dir / "interviews" / "notes").mkdir(exist_ok=True)
-    (descubrimiento_dir / "interviews" / "artifacts").mkdir(exist_ok=True)
-    (descubrimiento_dir / "interviews" / "consent").mkdir(exist_ok=True)
-    (descubrimiento_dir / "interviews" / "processed").mkdir(exist_ok=True)
+    discovery_dir.mkdir(parents=True, exist_ok=True)
+    (discovery_dir / "inputs").mkdir(exist_ok=True)
+    (discovery_dir / "interviews").mkdir(exist_ok=True)
+    (discovery_dir / "interviews" / "incoming").mkdir(exist_ok=True)
+    (discovery_dir / "interviews" / "transcripts").mkdir(exist_ok=True)
+    (discovery_dir / "interviews" / "notes").mkdir(exist_ok=True)
+    (discovery_dir / "interviews" / "artifacts").mkdir(exist_ok=True)
+    (discovery_dir / "interviews" / "consent").mkdir(exist_ok=True)
+    (discovery_dir / "interviews" / "processed").mkdir(exist_ok=True)
 
     now = dt.date.today().isoformat()
     created = []
@@ -62,7 +62,7 @@ def main() -> int:
 
     for name in TEMPLATE_FILES:
         src = templates_dir / name
-        dest = descubrimiento_dir / name
+        dest = discovery_dir / name
         if dest.exists() and not args.force:
             skipped.append(name)
             continue
@@ -77,7 +77,7 @@ def main() -> int:
 
     for src_name, dest_name in INTERVIEW_TEMPLATE_FILES.items():
         src = templates_dir / src_name
-        dest = descubrimiento_dir / "interviews" / dest_name
+        dest = discovery_dir / "interviews" / dest_name
         if dest.exists() and not args.force:
             skipped.append(f"interviews/{dest_name}")
             continue
@@ -85,12 +85,12 @@ def main() -> int:
         created.append(f"interviews/{dest_name}")
 
     note_template_src = templates_dir / "interview-note-template.md"
-    note_template_dest = descubrimiento_dir / "interviews" / "notes" / "_template-notas.md"
+    note_template_dest = discovery_dir / "interviews" / "notes" / "_notes-template.md"
     if note_template_src.exists() and (args.force or not note_template_dest.exists()):
         shutil.copyfile(note_template_src, note_template_dest)
-        created.append("interviews/notes/_template-notas.md")
+        created.append("interviews/notes/_notes-template.md")
 
-    print(f"Descubrimiento initialized at {descubrimiento_dir}")
+    print(f"Discovery initialized at {discovery_dir}")
     if created:
         print("Created: " + ", ".join(created))
     if skipped:

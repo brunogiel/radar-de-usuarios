@@ -1,20 +1,20 @@
 # Decision Log
 
-Registrar decisiones para que el metodo sea trazable y retomable.
+Record decisions so the method is traceable and resumable.
 
-## Como usar
+## How to use
 
-- Una decision por fila.
-- No registrar cada micro-edicion.
-- Registrar decisiones que cambian etapa, foco, muestra, supuestos o entregables.
+- One decision per row.
+- Don't record every micro-edit.
+- Record decisions that change stage, focus, sample, assumptions or deliverables.
 
-| Fecha | Etapa | Decision | Motivo | Tradeoffs | Evidencia / input | Reversible |
+| Date | Stage | Decision | Reason | Tradeoffs | Evidence / input | Reversible |
 |---|---|---|---|---|---|---|
-| Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Pendiente | Si/No |
+| Pending | Pending | Pending | Pending | Pending | Pending | Yes/No |
 
-## Cambios de rumbo
+## Course changes
 
-| Fecha | Que cambio | Por que | Impacto en documentos |
+| Date | What changed | Why | Impact on documents |
 |---|---|---|---|
-| Pendiente | Pendiente | Pendiente | Pendiente |
+| Pending | Pending | Pending | Pending |
 

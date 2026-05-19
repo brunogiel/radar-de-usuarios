@@ -1,119 +1,119 @@
 # Empat.ia
 
-> Método instalable para **guiarte en un proyecto de descubrimiento de usuarios**, usando [Claude](https://claude.com/claude-code) o Codex. Un Tandem entre VOS + Inteligencia Artificial para llevar adelante un proyecto de Design Thinking.
+> Installable method to **guide you through a user discovery project**, using [Claude](https://claude.com/claude-code) or Codex. A tandem between YOU + Artificial Intelligence to carry out a Design Thinking project.
 
-Empat.ia es un copiloto que te guía en un proceso de diseño empático siguiendo la metodología de Design Thinking. El entregable final son **principios de diseño** rastreables a evidencia, que vas a usar para decidir producto, comunicación con usuarios y estrategia.
+Empat.ia is a co-pilot that guides you through an empathic design process following the Design Thinking methodology. The final deliverable is **design principles** traceable to evidence, which you'll use to decide on product, user communication, and strategy.
 
-## ⚠️ Antes de usarlo
+## ⚠️ Before you use it
 
-- **Es un copiloto.** No reemplaza el trabajo de campo. Si no hablás con usuarios reales, el método no sirve.
-- **Requiere tiempo: mínimo una semana de dedicación seria + 10-12 entrevistas hechas por vos.** El Guía te arma las guías, te ayuda a reclutar y te ordena la evidencia, pero no entrevista por vos.
-- **No reemplaza criterio profesional en research con stakes altos** (médico, legal, financiero, vulnerabilidad de usuarios). Consultá con un researcher senior.
+- **It's a co-pilot.** It doesn't replace fieldwork. If you don't talk to real users, the method doesn't work.
+- **It takes time: at least a week of serious dedication + 10-12 interviews done by you.** The Guide puts together the interview guides, helps you recruit, and organizes the evidence, but it doesn't interview for you.
+- **It doesn't replace professional judgment in high-stakes research** (medical, legal, financial, user vulnerability). Consult with a senior researcher.
 
 
-## Qué hace
+## What it does
 
-- Te lleva a construir **principios de diseño** rastreables a evidencia. Ese es el entregable central.
-- Crea una carpeta `descubrimiento/` dentro de tu proyecto con documentos persistentes (state, supuestos, decisiones, entrevistas, síntesis).
-- Te guía paso a paso por 10 etapas, de alineación inicial a síntesis con evidencia.
-- Separa hechos, supuestos e inferencias. No te deja confundir.
-- Convierte material crudo de entrevistas en evidencia atómica trazable antes de escribir insights y principios.
-- Te ofrece un concilio de agentes (economista, socióloga, filósofo, artista, dueño de pyme, taxista y otros) cuando una decisión necesita más presión.
-- Mantiene el estado del proyecto visible en todo momento: dónde estás, qué hiciste, qué sigue.
+- It walks you through building **design principles** traceable to evidence. That is the central deliverable.
+- It creates a `discovery/` folder inside your project with persistent documents (state, assumptions, decisions, interviews, synthesis).
+- It guides you step by step through 10 stages, from initial alignment to evidence-based synthesis.
+- It separates facts, assumptions, and inferences. It doesn't let you confuse them.
+- It turns raw interview material into traceable atomic evidence before writing insights and principles.
+- It offers you a council of agents (economist, sociologist, philosopher, artist, SME owner, cab driver, and others) when a decision needs more pressure.
+- It keeps the project state visible at all times: where you are, what you've done, what's next.
 
-## Para quién es
+## Who it's for
 
-Para cualquiera con ganas de aprender de sus usuarios y dispuesto a hacer el trabajo. En particular: founders early-stage, Product Managers, UX Researchers, dueños de PyMEs repensando un servicio, estudiantes y equipos de innovación.
+For anyone willing to learn from their users and ready to do the work. In particular: early-stage founders, Product Managers, UX Researchers, SME owners rethinking a service, students, and innovation teams.
 
-Requisitos mínimos:
+Minimum requirements:
 
-| Lo que necesitás                      | Para qué                                      |
-| ------------------------------------- | --------------------------------------------- |
-| Cuenta paga de Claude o Codex         | Para que un asistente corra el método con vos |
-| 10-12 entrevistas con usuarios reales | El campo lo hacés vos, no se delega           |
-| Mínimo 1 semana de dedicación         | Sin tiempo, el método no rinde                |
+| What you need                          | What for                                       |
+| -------------------------------------- | ---------------------------------------------- |
+| Paid Claude or Codex account           | So an assistant can run the method with you    |
+| 10-12 interviews with real users       | You do the fieldwork; it can't be delegated    |
+| At least 1 week of dedication          | Without time, the method doesn't pay off       |
 
-## Cómo se usa
+## How to use it
 
-Decile a tu asistente (Claude o Codex), copiando este mensaje:
+Tell your assistant (Claude or Codex), by copying this message:
 
 ```text
-Instalame este repo: https://github.com/brunogiel/Empat.ia
+Install this repo for me: https://github.com/brunogiel/Empat.ia
 ```
 
-Tu asistente baja el método, te explica de qué se trata y arranca con vos.
+Your assistant downloads the method, explains what it's about, and gets started with you.
 
-En cualquier momento podés pedir _"cómo va"_ o _"status"_ y te muestra dónde estás.
+At any point you can ask _"how's it going"_ or _"status"_ and it shows you where you are.
 
-### Instalación como skill global
+### Installing as a global skill
 
-Opcional, si querés tenerlo disponible en todos tus proyectos sin pegar el link cada vez:
+Optional, if you want it available across all your projects without pasting the link every time:
 
 ```bash
-./install.sh claude   # copia el skill a ~/.claude/skills/descubrimiento-guia
-./install.sh codex    # copia el skill a ~/.codex/skills/descubrimiento-guia
+./install.sh claude   # copies the skill to ~/.claude/skills/discovery-guide
+./install.sh codex    # copies the skill to ~/.codex/skills/discovery-guide
 ```
 
-Después invocás con _"usá Empat.ia"_ desde cualquier proyecto.
+Then you invoke it with _"use Empat.ia"_ from any project.
 
-## Las 10 etapas
+## The 10 stages
 
-| Etapa | Qué se hace | Tiempo estimado | Entregable |
+| Stage | What happens | Estimated time | Deliverable |
 |---|---|---|---|
-| 1. Inicio | Alineación, contexto, decisión a destrabar | 30-60 min | `documento-discovery.md` inicial |
-| 2. Design Challenge | Encuadre del problema sin meter solución | 30-90 min | Challenge en el documento principal |
-| 3. Research de mercado | Categoría, sustitutos, referentes (cuando aplica) | 1-3 hs | `research-mercado.md` con fuentes |
-| 4. Base de conocimiento | Qué sabemos, qué asumimos, qué falta aprender | 30-60 min | `base-conocimiento.md` |
-| 5. Usuarios y muestra | Roles, perfiles y muestra cualitativa | 30-90 min | `usuarios-y-muestra.md` |
-| 6. Guías de entrevista | Una guía por perfil, machete no cuestionario | 1-2 hs | `guias-entrevista.md` |
-| 7. Reclutamiento | Canales, mensajes, tracker | 2-5 días | `reclutamiento.md` actualizándose |
-| 8. Checklist de campo | Antes, durante, después de cada entrevista | 30 min | `checklist-campo.md` |
-| 9. Captura de entrevistas | Transcripts, notas, consentimientos, evidencia atómica | 1-3 semanas | `interviews/` poblado |
-| 10. Síntesis | De evidencia a **principios de diseño** + insights, patrones y HMW | 3-5 hs | `sintesis.md` |
+| 1. Start | Alignment, context, decision to unblock | 30-60 min | Initial `discovery-document.md` |
+| 2. Design Challenge | Framing the problem without putting in a solution | 30-90 min | Challenge in the main document |
+| 3. Market research | Category, substitutes, references (when applicable) | 1-3 hrs | `market-research.md` with sources |
+| 4. Knowledge base | What we know, what we assume, what's left to learn | 30-60 min | `knowledge-base.md` |
+| 5. Users and sample | Roles, profiles, and qualitative sample | 30-90 min | `users-and-sample.md` |
+| 6. Interview guides | One guide per profile, cheat sheet not questionnaire | 1-2 hrs | `interview-guides.md` |
+| 7. Recruitment | Channels, messages, tracker | 2-5 days | `recruitment.md` updating as you go |
+| 8. Field checklist | Before, during, after each interview | 30 min | `field-checklist.md` |
+| 9. Interview capture | Transcripts, notes, consents, atomic evidence | 1-3 weeks | Populated `interviews/` |
+| 10. Synthesis | From evidence to **design principles** + insights, patterns, and HMW | 3-5 hrs | `synthesis.md` |
 
-**Entregable final**: un set de **principios de diseño** rastreables a citas y evidencia de entrevistas. Reglas de decisión que vas a usar después para guiar:
+**Final deliverable**: a set of **design principles** traceable to interview quotes and evidence. Decision rules that you'll then use to guide:
 
-- **Producto**: qué construir y qué dejar afuera, cómo priorizar features, cómo resolver dilemas de diseño cuando aparecen.
-- **Comunicación con usuarios**: qué palabras usar, qué prometer, qué no prometer, cómo hablarles a los distintos perfiles.
-- **Estrategia**: dónde apostar, qué segmento priorizar, qué oportunidades vale la pena perseguir y cuáles no.
+- **Product**: what to build and what to leave out, how to prioritize features, how to resolve design dilemmas when they come up.
+- **User communication**: what words to use, what to promise, what not to promise, how to speak to different profiles.
+- **Strategy**: where to bet, which segment to prioritize, which opportunities are worth pursuing and which aren't.
 
-Los principios vienen acompañados de patrones, insights, citas top y preguntas "Cómo podríamos..." (HMW) que abren la siguiente fase de ideación. Los principios son lo que se queda con vos cuando termina el método.
+The principles come with patterns, insights, top quotes, and "How might we..." (HMW) questions that open the next ideation phase. The principles are what you keep when the method ends.
 
-Las etapas con gate (1, 2, 3, 4, 5, 6, 9, 10) requieren actualizar el estado antes de avanzar. El método no te deja saltar.
+The gated stages (1, 2, 3, 4, 5, 6, 9, 10) require updating the state before advancing. The method won't let you skip.
 
-También podés usar Empat.ia por etapa suelta. Si ya tenés entrevistas hechas y solo querés síntesis, podés arrancar directo en la etapa 10.
+You can also use Empat.ia for a single stage. If you already have interviews done and just want synthesis, you can start straight at stage 10.
 
-## Las cuatro acciones del Guía
+## The Guide's four actions
 
-En cada gate, el Guía recomienda una acción:
+At every gate, the Guide recommends an action:
 
-- **Avanzar**: el material es suficiente, pasamos a la próxima etapa.
-- **Profundizar**: hay base pero falta espesor antes de seguir.
-- **Cuestionar**: hay supuestos peligrosos o definiciones flojas, vamos a tensionar antes de avanzar.
-- **Concilio**: la decisión amerita traer voces externas con lentes distintos.
+- **Advance**: the material is enough, we move to the next stage.
+- **Deepen**: there's a base but more depth is needed before moving on.
+- **Question**: there are dangerous assumptions or loose definitions, let's pressure-test them before advancing.
+- **Council**: the decision deserves bringing in outside voices with different lenses.
 
-El Guía propone. Vos elegís. Siempre podés sobreescribir la recomendación, y el Guía te muestra los riesgos de hacerlo.
+The Guide proposes. You choose. You can always override the recommendation, and the Guide will show you the risks of doing so.
 
-## El concilio
+## The council
 
-Cuando una decisión es difícil, podés convocar al concilio: un equipo multidisciplinario que te tensiona desde lentes distintos. Como en un equipo de IDEO, mezclamos perfiles que no piensan igual:
+When a decision is hard, you can call the council: a multidisciplinary team that pressures you from different lenses. As in an IDEO team, we mix profiles that don't think alike:
 
-- Un **economista** que mira incentivos y costos.
-- Una **socióloga** que cuestiona el contexto cultural.
-- Un **filósofo** que pelea por las definiciones y los supuestos.
-- Una **artista** que abre analogías y posibilidades no obvias.
-- Un **dueño de pyme** que aporta la realidad operativa.
-- Un **especialista en growth** que mira canales y lenguaje.
-- Y otros: tecnologo, experto en industria, uxer, researcher cualitativo, e incluso un **taxista** para cuando el equipo se pone demasiado experto y hace falta una mirada lateral.
+- An **economist** who looks at incentives and costs.
+- A **sociologist** who challenges cultural context.
+- A **philosopher** who fights for definitions and assumptions.
+- An **artist** who opens up analogies and non-obvious possibilities.
+- An **SME owner** who brings operational reality.
+- A **growth specialist** who looks at channels and language.
+- And others: technologist, industry expert, uxer, qualitative researcher, and even a **cab driver** for when the team gets too expert-heavy and a lateral perspective is needed.
 
-El Guía te propone 3-5 según el proyecto y el gate, y te ayuda a elegir. Vos también podés sumar o sacar agentes a mano. La regla: combinar al menos tres lentes distintos para forzar desacuerdo útil. El concilio te muestra los ángulos que solo no ves.
+The Guide proposes 3-5 based on the project and the gate, and helps you choose. You can also add or remove agents by hand. The rule: combine at least three different lenses to force useful disagreement. The council shows you the angles you can't see on your own.
 
-## Privacidad y fuentes
+## Privacy and sources
 
-El repositorio público contiene solo archivos genéricos del método. Proyectos privados, trabajo con clientes y ejemplos específicos quedan fuera.
+The public repository contains only generic method files. Private projects, client work, and specific examples are kept out.
 
-El método se construyó sobre material propio de facilitación, referencias externas de human-centered design (IDEO, Acumen y otros) y **años de experiencia corriendo este método de forma manual, pre-IA**. Las referencias se listan en [`docs/reference-map.md`](docs/reference-map.md). Los documentos fuente permanecen con sus dueños originales.
+The method was built on proprietary facilitation material, external human-centered design references (IDEO, Acumen, and others), and **years of experience running this method manually, pre-AI**. References are listed in [`docs/reference-map.md`](docs/reference-map.md). Source documents remain with their original owners.
 
-## Licencia
+## License
 
-MIT, ver [`LICENSE`](LICENSE).
+MIT, see [`LICENSE`](LICENSE).

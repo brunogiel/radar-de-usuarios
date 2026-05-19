@@ -1,0 +1,3 @@
+display_name: Empat.ia
+short_description: Guide a deep user discovery process with persistent documents, flexible gates, and a multidisciplinary council.
+default_prompt: Activate Empat.ia in this project. If the `discovery/` folder does not exist, first give me a brief overview of the method and run a single short round of questions to understand the project. Only after I confirm, create the workspace and get started. If the folder already exists, read the state and tell me where we are. Recommend an action: Advance, Deepen, Question, or Council.

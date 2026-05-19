@@ -1,29 +1,29 @@
-# Supuestos
+# Assumptions
 
-Los supuestos no son hechos. Sirven para avanzar sin esconder incertidumbre.
+Assumptions are not facts. They help you move forward without hiding uncertainty.
 
-## Reglas
+## Rules
 
-- Todo supuesto relevante se registra.
-- Si un supuesto habilita avanzar, el status debe poder ser `advanced_with_assumptions`.
-- Cada supuesto necesita forma de validacion.
-- Revisar este archivo en cada gate.
+- Every relevant assumption is recorded.
+- If an assumption enables progress, the status should be able to be `advanced_with_assumptions`.
+- Each assumption needs a way to be validated.
+- Review this file at every gate.
 
-## Supuestos activos
+## Active assumptions
 
-| ID | Supuesto | Origen | Riesgo si es falso | Como validarlo | Fecha limite / etapa | Estado |
+| ID | Assumption | Origin | Risk if false | How to validate it | Deadline / stage | Status |
 |---|---|---|---|---|---|---|
-| A-001 | Pendiente | Pendiente | Bajo/Medio/Alto | Pendiente | Pendiente | activo |
+| A-001 | Pending | Pending | Low/Medium/High | Pending | Pending | active |
 
-## Supuestos validados
+## Validated assumptions
 
-| ID | Resultado | Evidencia | Decision tomada |
+| ID | Result | Evidence | Decision taken |
 |---|---|---|---|
-| Pendiente | Pendiente | Pendiente | Pendiente |
+| Pending | Pending | Pending | Pending |
 
-## Supuestos descartados
+## Discarded assumptions
 
-| ID | Por que se descarto | Evidencia |
+| ID | Why it was discarded | Evidence |
 |---|---|---|
-| Pendiente | Pendiente | Pendiente |
+| Pending | Pending | Pending |
 

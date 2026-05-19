@@ -1,10 +1,10 @@
 # Interviews
 
-Esta carpeta es la bandeja de trabajo para todo el material de campo: transcripciones, notas, audios, fotos, documentos compartidos, consentimientos y observaciones.
+This folder is the working tray for all field material: transcripts, notes, audio, photos, shared documents, consents and observations.
 
-Regla central: el material crudo se preserva. La sintesis se hace despues, con trazabilidad.
+Central rule: raw material is preserved. Synthesis happens later, with traceability.
 
-## Estructura
+## Structure
 
 ```text
 interviews/
@@ -14,76 +14,76 @@ interviews/
 ├── incoming/
 ├── transcripts/
 ├── notes/
-│   └── _template-notas.md
+│   └── _notes-template.md
 ├── artifacts/
 ├── consent/
 └── processed/
 ```
 
-## Para quien lleva el proceso
+## For whoever is running the process
 
-Cuando termines entrevistas o recibas material, bajalo en `incoming/` sin preocuparte por dejarlo perfecto. Puede entrar como:
+When you finish interviews or receive material, drop it into `incoming/` without worrying about making it perfect. It can come in as:
 
-- transcripcion completa,
-- notas sueltas,
-- resumen del entrevistador,
-- audio o video,
-- fotos del contexto,
+- a complete transcript,
+- loose notes,
+- the interviewer's summary,
+- audio or video,
+- photos of the context,
 - screenshots,
-- documentos compartidos por el entrevistado,
-- consentimiento o autorizacion.
+- documents shared by the interviewee,
+- consent or authorization.
 
-Después el Guía ordena ese material sin perder origen.
+Later the Guide organizes that material without losing the source.
 
-## Naming recomendado
+## Recommended naming
 
-Usar un ID unico por entrevista.
-
-```text
-INT-001_nombre-o-alias_perfil_fecha.ext
-```
-
-Ejemplos:
+Use a unique ID per interview.
 
 ```text
-INT-001_maria_admin-pyme_2026-05-14_transcript.md
-INT-001_maria_admin-pyme_2026-05-14_notas.md
-INT-001_maria_admin-pyme_2026-05-14_foto-proceso.jpg
+INT-001_name-or-alias_profile_date.ext
 ```
 
-Si hay privacidad sensible, usar alias:
+Examples:
 
 ```text
-INT-003_alias-a_dueno-comercio_2026-05-18_transcript.md
+INT-001_maria_sme-admin_2026-05-14_transcript.md
+INT-001_maria_sme-admin_2026-05-14_notes.md
+INT-001_maria_sme-admin_2026-05-14_process-photo.jpg
 ```
 
-## Flujo de procesamiento
+If there is sensitive privacy, use an alias:
 
-1. Ingresar material en `incoming/`.
-2. Registrar cada entrevista en `index.md`.
-3. Mover o copiar transcripciones limpias a `transcripts/`.
-4. Crear una nota estructurada en `notes/` usando `_template-notas.md`.
-5. Guardar fotos, documentos o capturas en `artifacts/`.
-6. Guardar consentimiento o restricciones en `consent/`.
-7. Extraer evidencia atomica en `evidence-ledger.md`.
-8. Recien despues cruzar patrones en `../sintesis.md`.
+```text
+INT-003_alias-a_shop-owner_2026-05-18_transcript.md
+```
 
-## Que cuenta como evidencia
+## Processing flow
 
-- Cita textual.
-- Hecho reportado por el entrevistado.
-- Observacion del entrevistador.
-- Workaround concreto.
-- Momento de emocion, tension o sorpresa.
-- Contradiccion.
-- Material compartido con permiso.
-- Pregunta abierta que surge del campo.
+1. Drop material into `incoming/`.
+2. Register each interview in `index.md`.
+3. Move or copy clean transcripts into `transcripts/`.
+4. Create a structured note in `notes/` using `_notes-template.md`.
+5. Save photos, documents or screenshots in `artifacts/`.
+6. Save consent or restrictions in `consent/`.
+7. Extract atomic evidence into `evidence-ledger.md`.
+8. Only then cross-reference patterns in `../synthesis.md`.
 
-## Reglas
+## What counts as evidence
 
-- No mezclar entrevistas sin ID.
-- No convertir notas sueltas en insight sin fuente.
-- No borrar contradicciones.
-- No completar silencios con inferencias.
-- Si el Guía interpreta algo, marcarlo como `Lectura del copiloto`.
-- Si falta consentimiento, no usar citas identificables.
+- A verbatim quote.
+- A fact reported by the interviewee.
+- An interviewer observation.
+- A concrete workaround.
+- A moment of emotion, tension or surprise.
+- A contradiction.
+- Material shared with permission.
+- An open question that surfaces from the field.
+
+## Rules
+
+- Don't mix interviews without IDs.
+- Don't turn loose notes into insights without a source.
+- Don't erase contradictions.
+- Don't fill silences with inferences.
+- If the Guide interprets something, label it as `Co-pilot reading`.
+- If consent is missing, don't use identifiable quotes.

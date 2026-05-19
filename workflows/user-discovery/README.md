@@ -1,18 +1,18 @@
 # User Discovery Workflow
 
-Workflow principal de Diseño con Empatía y la IA.
+Main workflow for Design with Empathy and AI.
 
-Reglas:
+Rules:
 
-- Leer solo el step activo.
-- Actualizar `descubrimiento/state.yaml`.
-- Actualizar `descubrimiento/documento-discovery.md`.
-- Actualizar el documento de etapa.
-- Registrar supuestos en `descubrimiento/assumptions.md`.
-- Registrar decisiones en `descubrimiento/decision-log.md`.
-- Usar templates como instrucciones, no solo como archivos vacios.
-- Si hay trabajo de campo contextual, actualizar `descubrimiento/guia-contexto.md`.
-- Para cada entrevista, bajar material crudo en `descubrimiento/interviews/incoming/`, registrar en `descubrimiento/interviews/index.md` y copiar `descubrimiento/interviews/notes/_template-notas.md`.
-- Antes de sintetizar, extraer evidencia a `descubrimiento/interviews/evidence-ledger.md`.
+- Read only the active step.
+- Update `discovery/state.yaml`.
+- Update `discovery/discovery-document.md`.
+- Update the stage document.
+- Record assumptions in `discovery/assumptions.md`.
+- Record decisions in `discovery/decision-log.md`.
+- Use templates as instructions, not just as empty files.
+- If there is contextual fieldwork, update `discovery/guide-context.md`.
+- For each interview, drop raw material into `discovery/interviews/incoming/`, log it in `discovery/interviews/index.md`, and copy `discovery/interviews/notes/_notes-template.md`.
+- Before synthesizing, extract evidence into `discovery/interviews/evidence-ledger.md`.
 
-Cada gate termina con recomendacion: Avanzar, Profundizar, Cuestionar o Concilio.
+Every gate ends with a recommendation: Advance, Deepen, Question, or Council.

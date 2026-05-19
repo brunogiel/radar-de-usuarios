@@ -1,3 +1,0 @@
-display_name: Empat.ia
-short_description: Guía un descubrimiento profundo de usuarios con documentos persistentes, gates flexibles y concilio multidisciplinario.
-default_prompt: Activá Empat.ia en este proyecto. Si no existe la carpeta `descubrimiento/`, primero charlame brevemente qué es el método y hacé una sola ronda corta para entender el proyecto. Recién cuando confirme, creá el workspace y arrancá. Si la carpeta ya existe, leé el estado y decime dónde estamos. Recomendá una acción: Avanzar, Profundizar, Cuestionar o Concilio.
