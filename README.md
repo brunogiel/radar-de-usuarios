@@ -48,6 +48,16 @@ Your assistant downloads the method, explains what it's about, and gets started 
 
 At any point you can ask _"how's it going"_ or _"status"_ and it shows you where you are.
 
+### Using it in Spanish
+
+To run the method in Spanish, send your assistant this message instead:
+
+```text
+Instalame esta repo y usémosla en español: https://github.com/brunogiel/Empat.ia
+```
+
+The assistant translates on the fly and runs the whole method in Spanish with you.
+
 ### Installing as a global skill
 
 Optional, if you want it available across all your projects without pasting the link every time:
