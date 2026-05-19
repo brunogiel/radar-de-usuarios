@@ -10,7 +10,7 @@ Empat.ia is a co-pilot that guides you through an empathic design process follow
 ## ⚠️ Before you use it
 
 - **It's a co-pilot.** It doesn't replace fieldwork. If you don't talk to real users, the method doesn't work.
-- **It takes time: at least a week of serious dedication + 10-12 interviews done by you.** The Guide puts together the interview guides, helps you recruit, and organizes the evidence, but it doesn't interview for you.
+- **It takes time: at least a week of serious dedication + 10-12 interviews done by you.** The Guide puts together the interview guides, helps you recruit, and organizes the evidence, but it doesn't interview for you (yet).
 - **It doesn't replace professional judgment in high-stakes research** (medical, legal, financial, user vulnerability). Consult with a senior researcher.
 
 
