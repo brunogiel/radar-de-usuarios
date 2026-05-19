@@ -45,6 +45,10 @@ Your assistant downloads the method, explains what it's about, and gets started 
 
 At any point you can ask _"how's it going"_ or _"status"_ and it shows you where you are.
 
+### Using it in Spanish
+
+To use it in Spanish, just tell your assistant (Claude or Codex): _"usemos esta repo en español"_ ("let's use this repo in Spanish"). The assistant will translate on the fly and run the method in Spanish with you.
+
 ### Installing as a global skill
 
 Optional, if you want it available across all your projects without pasting the link every time:
