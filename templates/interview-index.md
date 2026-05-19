@@ -1,39 +1,39 @@
-# Indice de Entrevistas
+# Interview Index
 
-Este indice permite saber que material entro, que falta ordenar y que tan lista esta la base para sintetizar.
+This index lets you see what material has come in, what still needs to be organized and how ready the base is for synthesis.
 
-## Estado general
+## General status
 
-- Entrevistas planificadas:
-- Entrevistas realizadas:
-- Transcripciones recibidas:
-- Notas estructuradas:
-- Materiales/contexto recibidos:
-- Consentimientos/restricciones revisadas:
-- Listo para sintesis: si/no/parcial
+- Interviews planned:
+- Interviews completed:
+- Transcripts received:
+- Structured notes:
+- Materials / context received:
+- Consents / restrictions reviewed:
+- Ready for synthesis: yes/no/partial
 
 ## Tracker
 
-| ID | Alias / nombre | Perfil | Segmento | Fecha | Modalidad | Entrevistador | Archivos crudos | Transcript | Nota | Artifacts | Consentimiento | Estado | Gaps |
+| ID | Alias / name | Profile | Segment | Date | Modality | Interviewer | Raw files | Transcript | Note | Artifacts | Consent | Status | Gaps |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| INT-001 | Pendiente | Pendiente | Pendiente | Pendiente | llamada/presencial/contexto | Pendiente | incoming/... | transcripts/... | notes/... | artifacts/... | consent/... | recibido/ordenado/evidencia_extraida/listo_sintesis | Pendiente |
+| INT-001 | Pending | Pending | Pending | Pending | call/in-person/context | Pending | incoming/... | transcripts/... | notes/... | artifacts/... | consent/... | received/organized/evidence_extracted/ready_for_synthesis | Pending |
 
-## Estados sugeridos
+## Suggested statuses
 
-- `recibido`: el material esta en `incoming/`, pero todavia no fue ordenado.
-- `ordenado`: ya tiene ID, transcript/nota y metadata minima.
-- `evidencia_extraida`: ya se paso a `evidence-ledger.md`.
-- `listo_sintesis`: puede usarse para patrones.
-- `incompleto`: falta transcript, notas, metadata o consentimiento.
+- `received`: the material is in `incoming/`, but hasn't been organized yet.
+- `organized`: it already has an ID, a transcript/note and minimum metadata.
+- `evidence_extracted`: it has been moved into `evidence-ledger.md`.
+- `ready_for_synthesis`: it can be used for patterns.
+- `incomplete`: missing transcript, notes, metadata or consent.
 
-## Gaps por resolver
+## Gaps to resolve
 
-| ID | Gap | Riesgo | Como resolver |
+| ID | Gap | Risk | How to resolve |
 |---|---|---|---|
-| Pendiente | Pendiente | bajo/medio/alto | Pendiente |
+| Pending | Pending | low/medium/high | Pending |
 
-## Cobertura de muestra
+## Sample coverage
 
-| Perfil / segmento | Plan | Realizadas | Suficiente para patron? | Notas |
+| Profile / segment | Plan | Completed | Enough for a pattern? | Notes |
 |---|---:|---:|---|---|
-| Pendiente | 0 | 0 | si/no/parcial | Pendiente |
+| Pending | 0 | 0 | yes/no/partial | Pending |

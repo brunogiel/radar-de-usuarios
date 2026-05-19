@@ -1,9 +1,9 @@
-method: diseno-empatia-ia
+method: design-empathy-ai
 project_name: ""
 created_at: ""
 updated_at: ""
-guide: guia
-current_step: inicio
+guide: guide
+current_step: start
 current_status: not_started
 valid_statuses:
   - not_started
@@ -11,74 +11,74 @@ valid_statuses:
   - drafted
   - validated
   - advanced_with_assumptions
-recommended_action: Profundizar
-recommended_reason: "Completar alineación inicial antes de avanzar."
+recommended_action: Deepen
+recommended_reason: "Complete initial alignment before moving forward."
 industry: ""
 is_tech_project: null
 active_agents:
-  - guia
+  - guide
 available_agents:
-  - guia
-  - researcher-cualitativo
-  - deep-researcher-mercado
+  - guide
+  - qualitative-researcher
+  - deep-market-researcher
   - uxer
-  - sociologo
-  - economista
+  - sociologist
+  - economist
   - growth
-  - artista
-  - filosofo
-  - tecnologo
+  - artist
+  - philosopher
+  - technologist
   - data-scientist
-  - experto-industria
-  - dueno-pyme
-  - taxista
-# Regla dura: no se cierra una etapa con gate sin actualizar 'status' a 'drafted',
-# 'validated' o 'advanced_with_assumptions'. El Guía no puede saltar de step sin
-# tocar este archivo y actualizar updated_at.
+  - industry-expert
+  - sme-owner
+  - cab-driver
+# Hard rule: a stage with a gate cannot be closed without updating 'status' to 'drafted',
+# 'validated' or 'advanced_with_assumptions'. The Guide cannot jump from one step to
+# another without touching this file and updating updated_at.
 steps:
-  inicio:
+  start:
     status: not_started
-    output: documento-discovery.md
+    output: discovery-document.md
     gate: true
   design_challenge:
     status: not_started
-    output: documento-discovery.md
+    output: discovery-document.md
     gate: true
-  research_mercado:
+  market_research:
     status: not_started
-    output: research-mercado.md
+    output: market-research.md
     gate: true
-  base_conocimiento:
+  knowledge_base:
     status: not_started
-    output: base-conocimiento.md
+    output: knowledge-base.md
     gate: true
-  usuarios_muestra:
+  users_sample:
     status: not_started
-    output: usuarios-y-muestra.md
+    output: users-and-sample.md
     gate: true
-  guias_entrevista:
+  interview_guides:
     status: not_started
-    output: guias-entrevista.md
+    output: interview-guides.md
     gate: true
-  reclutamiento:
+  recruitment:
     status: not_started
-    output: reclutamiento.md
+    output: recruitment.md
     gate: false
-  checklist_campo:
+  field_checklist:
     status: not_started
-    output: checklist-campo.md
+    output: field-checklist.md
     gate: false
-  guia_contexto:
+  guide_context:
     status: not_started
-    output: guia-contexto.md
+    output: guide-context.md
     gate: false
-  captura_entrevistas:
+  interview_capture:
     status: not_started
     output: interviews/index.md + interviews/evidence-ledger.md
     gate: true
-  sintesis:
+  synthesis:
     status: not_started
-    output: sintesis.md
+    output: synthesis.md
     gate: true
 interviews:
   target: 10

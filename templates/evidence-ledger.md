@@ -1,50 +1,50 @@
 # Evidence Ledger
 
-Este documento es el puente entre entrevistas crudas y sintesis. Cada fila debe poder volver a una entrevista, una cita, una observacion o un material.
+This document is the bridge between raw interviews and synthesis. Each row must be traceable back to an interview, a quote, an observation or a material.
 
-No escribir insights cerrados aca. Este ledger guarda evidencia atomica y lecturas preliminares claramente marcadas.
+Don't write closed insights here. This ledger holds atomic evidence and preliminary readings that are clearly labeled as such.
 
-## Como usarlo
+## How to use it
 
-1. Procesar entrevista por entrevista.
-2. Extraer unidades chicas de evidencia.
-3. Mantener fuente y ubicacion.
-4. Separar cita, hecho, observacion e inferencia.
-5. Usar tags para facilitar clusters.
-6. Recien despues llevar patrones a `../sintesis.md`.
+1. Process interview by interview.
+2. Extract small units of evidence.
+3. Keep the source and location.
+4. Separate quote, fact, observation and inference.
+5. Use tags to make clustering easier.
+6. Only then bring patterns into `../synthesis.md`.
 
-## Tipos de evidencia
+## Types of evidence
 
-- `cita`: palabras del entrevistado.
-- `fact`: hecho reportado o dato concreto.
-- `observacion`: algo visto por el entrevistador.
-- `workaround`: solucion informal usada hoy.
-- `emocion`: tension, sorpresa, frustracion, entusiasmo, miedo.
-- `contradiccion`: diferencia entre dicho/hecho, o entre entrevistados.
-- `material`: foto, captura, documento o artefacto.
-- `pregunta_abierta`: algo a explorar en otra ronda.
-- `lectura_copiloto`: interpretacion marcada, no evidencia cruda.
+- `quote`: the interviewee's exact words.
+- `fact`: a reported fact or concrete piece of data.
+- `observation`: something the interviewer saw.
+- `workaround`: an informal solution being used today.
+- `emotion`: tension, surprise, frustration, enthusiasm, fear.
+- `contradiction`: a difference between what is said and what is done, or between interviewees.
+- `material`: photo, screenshot, document or artifact.
+- `open_question`: something to explore in another round.
+- `copilot_reading`: a labeled interpretation, not raw evidence.
 
 ## Ledger
 
-| ID evidencia | Entrevista | Perfil | Tipo | Evidencia | Ubicacion | Tags | Lectura preliminar | Confianza | Usar en sintesis |
+| Evidence ID | Interview | Profile | Type | Evidence | Location | Tags | Preliminary reading | Confidence | Use in synthesis |
 |---|---|---|---|---|---|---|---|---|---|
-| EV-001 | INT-001 | Pendiente | cita/fact/observacion/workaround/emocion/contradiccion/material/pregunta_abierta/lectura_copiloto | Pendiente | transcript minuto/linea o nota seccion | Pendiente | Pendiente | baja/media/alta | si/no/revisar |
+| EV-001 | INT-001 | Pending | quote/fact/observation/workaround/emotion/contradiction/material/open_question/copilot_reading | Pending | transcript minute/line or note section | Pending | Pending | low/medium/high | yes/no/review |
 
-## Contradicciones a preservar
+## Contradictions to preserve
 
-| ID | Evidencia A | Evidencia B | Por que importa | Que falta validar |
+| ID | Evidence A | Evidence B | Why it matters | What's still to validate |
 |---|---|---|---|---|
-| Pendiente | EV-... | EV-... | Pendiente | Pendiente |
+| Pending | EV-... | EV-... | Pending | Pending |
 
-## Citas candidatas
+## Candidate quotes
 
-| Cita | Entrevista | Tema | Por que puede importar | Restriccion de privacidad |
+| Quote | Interview | Topic | Why it might matter | Privacy restriction |
 |---|---|---|---|---|
-| Pendiente | INT-... | Pendiente | Pendiente | ninguna/anonimizar/no usar |
+| Pending | INT-... | Pending | Pending | none/anonymize/do not use |
 
-## Preguntas nuevas para proximas entrevistas
+## New questions for upcoming interviews
 
-| Pregunta | Evidencia que la dispara | A quien preguntarla | Prioridad |
+| Question | Evidence that triggers it | Who to ask | Priority |
 |---|---|---|---|
-| Pendiente | EV-... | Pendiente | baja/media/alta |
+| Pending | EV-... | Pending | low/medium/high |

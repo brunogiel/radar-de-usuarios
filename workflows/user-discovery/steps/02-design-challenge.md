@@ -1,57 +1,57 @@
 # 02, Design Challenge
 
-## Objetivo
+## Objective
 
-Co-crear un desafio en formato `Como podriamos...` centrado en usuario, necesidad e impacto.
+Co-create a challenge in `How might we...` format centered on user, need, and impact.
 
-## Notas del método
+## Method notes
 
-- No buscar un challenge para justificar el producto que ya tenes en la cabeza.
-- Evitar que sea demasiado amplio o demasiado especifico.
-- El challenge sirve como cable a tierra de todo el proceso.
+- Don't look for a challenge to justify the product you already have in mind.
+- Avoid making it too broad or too specific.
+- The challenge serves as the grounding wire for the whole process.
 
-## Documentos a tocar
+## Documents to touch
 
-- `descubrimiento/documento-discovery.md`
-- `descubrimiento/state.yaml`
-- `descubrimiento/assumptions.md`
-- `descubrimiento/decision-log.md`
+- `discovery/discovery-document.md`
+- `discovery/state.yaml`
+- `discovery/assumptions.md`
+- `discovery/decision-log.md`
 
-## Checklist de calidad
+## Quality checklist
 
-- Tiene usuario o grupo de personas.
-- Tiene problema/necesidad.
-- Tiene impacto buscado.
-- No trae solucion escondida.
-- Orienta entrevistas y research.
-- Permite multiples soluciones posibles.
-- Tiene contexto o restriccion suficiente para no ser enorme.
+- It has a user or group of people.
+- It has a problem/need.
+- It has an intended impact.
+- It doesn't carry a hidden solution.
+- It guides interviews and research.
+- It allows multiple possible solutions.
+- It has enough context or constraint not to be enormous.
 
-## Usar el template
+## Using the template
 
-Actualizar en `documento-discovery.md`:
+Update in `discovery-document.md`:
 
-- Challenge actual.
-- Por que no es demasiado amplio.
-- Por que no es demasiado estrecho.
-- Supuestos que sostiene.
+- Current challenge.
+- Why it isn't too broad.
+- Why it isn't too narrow.
+- Assumptions it rests on.
 
-Si aparece una solucion disfrazada, moverla a supuestos o notas, no al challenge.
+If a disguised solution appears, move it to assumptions or notes, not to the challenge.
 
-## Concilio
+## Council
 
-Sugerir `Concilio` si:
+Suggest `Council` if:
 
-- Hay mas de un usuario posible.
-- El challenge suena a solucion.
-- Hay tension entre negocio y usuario.
+- There is more than one possible user.
+- The challenge sounds like a solution.
+- There is tension between business and user.
 
-Agentes tipicos: `researcher-cualitativo`, `uxer`, `filosofo`, `sociologo`, `experto-industria`. Si el proyecto toca pymes, sumar `dueno-pyme`.
+Typical agents: `qualitative-researcher`, `uxer`, `philosopher`, `sociologist`, `industry-expert`. If the project touches SMEs, add `sme-owner`.
 
 ## Gate
 
-Accion sugerida:
+Suggested action:
 
-- `Avanzar` si el challenge cumple checklist.
-- `Cuestionar` si es solucion disfrazada.
-- `Profundizar` si falta usuario o impacto.
+- `Advance` if the challenge meets the checklist.
+- `Question` if it is a disguised solution.
+- `Deepen` if user or impact is missing.

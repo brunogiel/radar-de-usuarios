@@ -1,84 +1,84 @@
-# Notas de Entrevista
+# Interview Notes
 
-Archivo sugerido: `YYYY-MM-DD_perfil_eXX_notas.md`.
+Suggested filename: `YYYY-MM-DD_profile_eXX_notes.md`.
 
 ## Metadata
 
-- Entrevistado anonimo:
-- Perfil:
-- Fecha:
-- Duracion:
-- Modalidad / lugar:
-- Entrevistador:
-- Notas:
-- Grabacion:
-- Consentimiento:
+- Anonymous interviewee:
+- Profile:
+- Date:
+- Duration:
+- Modality / place:
+- Interviewer:
+- Notes:
+- Recording:
+- Consent:
 
-## Contexto
+## Context
 
-Quien es, que hace, donde ocurre el problema, que rol cumple.
+Who they are, what they do, where the problem happens, what role they play.
 
-Pendiente.
+Pending.
 
-## Citas textuales
+## Verbatim quotes
 
-Capturar palabras exactas.
+Capture exact words.
 
-| Cita | Tema | Momento |
+| Quote | Topic | Moment |
 |---|---|---|
-| Pendiente | Pendiente | Pendiente |
+| Pending | Pending | Pending |
 
-## Journey narrado
+## Narrated journey
 
-Paso a paso de la situacion investigada.
+Step by step of the situation being investigated.
 
-| Etapa | Que hace | Que piensa / siente | Friccion | Herramientas / personas |
+| Stage | What they do | What they think / feel | Friction | Tools / people |
 |---|---|---|---|---|
-| Pendiente | Pendiente | Pendiente | Pendiente | Pendiente |
+| Pending | Pending | Pending | Pending | Pending |
 
-## Dolores y frustraciones
+## Pains and frustrations
 
-- Pendiente.
+- Pending.
 
-## Motivaciones y objetivos
+## Motivations and goals
 
-- Pendiente.
+- Pending.
 
-## Comportamientos y workarounds
+## Behaviors and workarounds
 
-- Pendiente.
+- Pending.
 
-## Proceso de decision
+## Decision process
 
-- Pendiente.
+- Pending.
 
-## Herramientas y alternativas actuales
+## Current tools and alternatives
 
-- Pendiente.
+- Pending.
 
-## Contradicciones
+## Contradictions
 
-Lo que dice vs lo que hace, o tensiones internas.
+What they say vs. what they do, or internal tensions.
 
-- Pendiente.
+- Pending.
 
-## Observaciones del entrevistador
+## Interviewer observations
 
-Separar observacion de interpretacion.
+Separate observation from interpretation.
 
-- Pendiente.
+- Pending.
 
-## Momentos de tension, sorpresa o emocion
+## Moments of tension, surprise or emotion
 
-- Pendiente.
+- Pending.
 
-## Preguntas nuevas
+## New questions
 
-- Pendiente.
+- Pending.
 
-## Lecturas del copiloto
+## Co-pilot readings
 
-Inferencias tentativas. No son hechos.
+Tentative inferences. They are not facts.
 
-- Pendiente.
+- Pending.
 
